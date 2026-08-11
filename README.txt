@@ -11,3 +11,7 @@ Latest changes:
 - Fixed the brown top-bar Book a Cut buttons so their text is white on every page.
 
 - Forced white Book a Cut text on both booking.html and contact.html top navigation buttons.
+
+- Removed the Contact-page top-bar Book a Cut link.
+- Reworded Google Maps placeholder as client-submitted location information.
+- Reworded Calendly placeholder as client-submitted booking information.
