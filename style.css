@@ -176,3 +176,19 @@ a.booking-pill,
   .home-header + main .hero{padding-top:82px}
   .contact-hero img{height:260px}
 }
+
+/* Top-bar Book a Cut text fix */
+header .booking-pill,
+header a.booking-pill,
+.home-header .booking-pill,
+.booking-page header .booking-pill {
+  background:#8c5b3f !important;
+  color:#ffffff !important;
+}
+
+header .booking-pill:visited,
+header .booking-pill:hover,
+header .booking-pill:focus,
+header .booking-pill:active {
+  color:#ffffff !important;
+}

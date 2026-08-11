@@ -7,3 +7,5 @@ Latest changes:
 - Inner page navigation has been made more consistent.
 - Contact-page barbershop image has been replaced with a clean photo with no baked-in text and is fitted with object-fit: cover.
 - Existing Calendly and Google Maps placeholders remain intact.
+
+- Fixed the brown top-bar Book a Cut buttons so their text is white on every page.
