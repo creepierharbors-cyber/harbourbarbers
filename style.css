@@ -62,3 +62,51 @@ header .pill{background:#34383b;color:#fff !important}
 .map-placeholder strong{display:block;color:#303438;font-size:1.25rem;margin-bottom:10px}
 .map-card iframe{width:100%;min-height:420px;border:0;border-radius:16px}
 @media(max-width:760px){.contact-hero-grid,.contact-layout{grid-template-columns:1fr}.contact-hero img{height:280px}}
+
+/* Final requested homepage polish */
+.hero{
+  background:
+    linear-gradient(90deg,rgba(248,246,241,.94) 0%,rgba(248,246,241,.82) 38%,rgba(20,20,18,.10) 67%),
+    url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1800&q=88") 66% center / cover no-repeat !important;
+  min-height:74vh;
+}
+.hero-inner{
+  max-width:1120px;
+  width:92%;
+  margin:auto;
+  padding-top:150px;
+  padding-bottom:90px;
+}
+
+.home-info-bar{
+  background:#ffffff;
+  color:#303438;
+  border-bottom:1px solid #ddd7cc;
+  font-size:.82rem;
+}
+.home-info-inner{
+  min-height:36px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+}
+body:not(.booking-page) header{top:36px;}
+@media(max-width:760px){
+  .home-info-inner{justify-content:center;flex-wrap:wrap;padding:7px 0}
+  body:not(.booking-page) header{top:64px}
+}
+
+.dark .box,
+.dark .box h3,
+.dark .box p{
+  color:#4a3328 !important;
+}
+.dark .box .btn{
+  background:#8c5b3f;
+  color:#ffffff !important;
+}
+
+.hero .eyebrow{color:#6d4937 !important}
+.hero h1{color:#26292c !important}
+.hero p{color:#454a4e !important}
