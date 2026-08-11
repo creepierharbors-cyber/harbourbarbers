@@ -21,3 +21,44 @@ section{padding:82px 0}.heading{max-width:720px;margin-bottom:36px}.heading h2{f
 .calendly-placeholder strong{display:block;color:#24231f;font:400 1.5rem Georgia,serif;margin-bottom:10px}
 .code-note{margin-top:16px;font-size:.9rem;color:#706b62;background:#eee8de;border-radius:12px;padding:14px}
 @media(max-width:760px){.booking-layout{grid-template-columns:1fr}.calendly-placeholder{min-height:420px}}
+
+/* 2026 polish pass */
+body{
+  font-family:"Segoe UI",Inter,Arial,sans-serif;
+  color:#2d3134;
+}
+.hero{
+  background:
+    linear-gradient(90deg,rgba(244,240,232,.86) 0%,rgba(244,240,232,.72) 37%,rgba(20,20,18,.14) 68%),
+    url("barbershop-hero.jpg") center/cover no-repeat !important;
+  color:#2d3134 !important;
+  text-align:left;
+}
+.hero-inner{width:min(1120px,92%);margin:auto}
+.hero .eyebrow,.hero h1,.hero p{color:#303438 !important}
+.hero p{margin:22px 0;max-width:600px}
+header{color:#35393c !important}
+header .brand,header .links a{color:#35393c !important}
+header .pill{background:#34383b;color:#fff !important}
+.heading h2,.card h3{color:#303438}
+.dark .box,.dark .box h3,.dark .box p{color:#303438 !important}
+.dark .box{background:#f1eee8}
+.contact{background:#e7e3dc;color:#303438}
+.contact p{color:#5d6368}
+.contact .heading h2{color:#303438 !important}
+.contact .btn{background:#34383b;color:#fff}
+
+/* Contact page */
+.contact-hero{padding:85px 0 55px;background:#e9e6df;color:#303438}
+.contact-hero-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:center}
+.contact-hero h1{font:500 clamp(2.8rem,6vw,5rem)/1.02 "Segoe UI",Arial,sans-serif;letter-spacing:-.045em;margin:0 0 18px;color:#303438}
+.contact-hero p{color:#60666b;max-width:560px}
+.contact-hero img{width:100%;height:380px;object-fit:cover;border-radius:24px;box-shadow:0 20px 55px rgba(30,30,28,.14)}
+.contact-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:28px;align-items:start}
+.contact-details-card,.map-card{background:#f8f6f1;border:1px solid #d5d0c7;border-radius:24px;padding:28px}
+.contact-details-card h2{font:500 2rem "Segoe UI",Arial,sans-serif;color:#303438;margin-top:0}
+.contact-details-card p{color:#555c61;margin:20px 0}
+.map-placeholder{min-height:420px;border:2px dashed #c8c1b5;border-radius:18px;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px;color:#676d72;background:#eeebe4}
+.map-placeholder strong{display:block;color:#303438;font-size:1.25rem;margin-bottom:10px}
+.map-card iframe{width:100%;min-height:420px;border:0;border-radius:16px}
+@media(max-width:760px){.contact-hero-grid,.contact-layout{grid-template-columns:1fr}.contact-hero img{height:280px}}
