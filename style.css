@@ -210,3 +210,10 @@ header .booking-pill:active {
     color:#ffffff !important;
     border-color:#8c5b3f !important;
 }
+
+/* Contact page top-bar booking button */
+.contact-page header .links a.booking-pill {
+  background:#8c5b3f !important;
+  color:#ffffff !important;
+  border-color:#8c5b3f !important;
+}

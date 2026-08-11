@@ -15,3 +15,5 @@ Latest changes:
 - Removed the Contact-page top-bar Book a Cut link.
 - Reworded Google Maps placeholder as client-submitted location information.
 - Reworded Calendly placeholder as client-submitted booking information.
+
+- Contact page: replaced the plain Book nav link with a brown Book a Cut button using white text, and removed the plain Book footer link.
