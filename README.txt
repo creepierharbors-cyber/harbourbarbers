@@ -9,3 +9,5 @@ Latest changes:
 - Existing Calendly and Google Maps placeholders remain intact.
 
 - Fixed the brown top-bar Book a Cut buttons so their text is white on every page.
+
+- Forced white Book a Cut text on both booking.html and contact.html top navigation buttons.

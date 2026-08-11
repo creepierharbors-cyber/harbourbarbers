@@ -192,3 +192,21 @@ header .booking-pill:focus,
 header .booking-pill:active {
   color:#ffffff !important;
 }
+
+/* FINAL inner-page Book a Cut text fix */
+.booking-page header .links a.booking-pill,
+.booking-page header .links a.booking-pill:link,
+.booking-page header .links a.booking-pill:visited,
+.booking-page header .links a.booking-pill:hover,
+.booking-page header .links a.booking-pill:focus,
+.booking-page header .links a.booking-pill:active,
+.contact-page header .links a.booking-pill,
+.contact-page header .links a.booking-pill:link,
+.contact-page header .links a.booking-pill:visited,
+.contact-page header .links a.booking-pill:hover,
+.contact-page header .links a.booking-pill:focus,
+.contact-page header .links a.booking-pill:active {
+    background:#8c5b3f !important;
+    color:#ffffff !important;
+    border-color:#8c5b3f !important;
+}
