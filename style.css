@@ -5,7 +5,19 @@ section{padding:82px 0}.heading{max-width:720px;margin-bottom:36px}.heading h2{f
 .dark{background:#24231f;color:#f4f0e8}.dark p{color:#d5d0c7}.split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.box{background:#fffdf8;border-radius:24px;padding:34px;color:#24231f}.contact{background:#8c5b3f;color:#fff}.contact p{color:#f6eee6}.contact .btn{background:#fff;color:#24231f}footer{background:#161613;color:#cec9c0;padding:28px 0}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 @media(max-width:760px){.links li:not(:last-child){display:none}.cards,.split{grid-template-columns:1fr}section{padding:62px 0}}
 
-/* Harbour Barbers requested text fixes */
-.hero .eyebrow, .hero h1, .hero p { color:#111111 !important; }
-header, header .brand, header .links a { color:#111111 !important; }
-.dark .box, .dark .box h3, .dark .box p { color:#111111 !important; }
+/* Booking page */
+.booking-page header{position:relative;background:#f4f0e8;color:#111111;border-bottom:1px solid #ddd7cc}
+.booking-page .nav{color:#111111}
+.booking-page .links a{color:#111111}
+.booking-page .booking-hero{padding:90px 0 55px;text-align:center;background:#f4f0e8;color:#24231f}
+.booking-page .booking-hero h1{font:400 clamp(2.8rem,6vw,5rem)/1.05 Georgia,serif;margin:0 0 18px}
+.booking-page .booking-hero p{max-width:620px;margin:0 auto;color:#706b62}
+.booking-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:28px;align-items:start}
+.booking-info{background:#24231f;color:#f4f0e8;border-radius:24px;padding:30px}
+.booking-info h2,.booking-info h3{font-family:Georgia,serif}
+.booking-info p{color:#d5d0c7}
+.calendly-shell{background:#fffdf8;border:1px solid #ddd7cc;border-radius:24px;padding:26px}
+.calendly-placeholder{min-height:560px;border:2px dashed #cfc7ba;border-radius:18px;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px;color:#706b62}
+.calendly-placeholder strong{display:block;color:#24231f;font:400 1.5rem Georgia,serif;margin-bottom:10px}
+.code-note{margin-top:16px;font-size:.9rem;color:#706b62;background:#eee8de;border-radius:12px;padding:14px}
+@media(max-width:760px){.booking-layout{grid-template-columns:1fr}.calendly-placeholder{min-height:420px}}
