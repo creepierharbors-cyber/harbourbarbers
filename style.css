@@ -110,3 +110,69 @@ body:not(.booking-page) header{top:36px;}
 .hero .eyebrow{color:#6d4937 !important}
 .hero h1{color:#26292c !important}
 .hero p{color:#454a4e !important}
+
+/* Requested navigation/button/contact-image fixes */
+
+/* Remove mistaken homepage info strip entirely if any styles remain. */
+.home-info-bar{display:none !important}
+
+/* Homepage navigation is the white bar the user intended. */
+.home-header{
+  position:absolute !important;
+  top:0 !important;
+  left:0;
+  width:100%;
+  background:#ffffff !important;
+  color:#2f3336 !important;
+  border-bottom:1px solid #dedbd5;
+  box-shadow:0 1px 10px rgba(35,35,32,.05);
+}
+.home-header .brand,
+.home-header .links a{
+  color:#2f3336 !important;
+}
+
+/* Keep inner-page header bars clean and consistent too. */
+.booking-page header{
+  background:#ffffff !important;
+  color:#2f3336 !important;
+}
+.booking-page header .brand,
+.booking-page header .links a{
+  color:#2f3336 !important;
+}
+
+/* Book-a-cut buttons: warm brown with crisp white text, never grey-on-grey. */
+.booking-pill,
+a.booking-pill,
+.btn[href="booking.html"]{
+  background:#8c5b3f !important;
+  color:#ffffff !important;
+  border:1px solid #8c5b3f !important;
+  box-shadow:none !important;
+}
+.booking-pill:hover,
+.btn[href="booking.html"]:hover{
+  background:#714631 !important;
+  color:#ffffff !important;
+}
+
+/* Contact hero photo: fill its card cleanly without letterboxing/cropping awkwardly. */
+.contact-hero img{
+  width:100%;
+  height:360px;
+  object-fit:cover;
+  object-position:center;
+  display:block;
+  border-radius:24px;
+}
+
+/* Home hero begins below the white navigation bar. */
+.home-header + main .hero{
+  padding-top:82px;
+}
+
+@media(max-width:760px){
+  .home-header + main .hero{padding-top:82px}
+  .contact-hero img{height:260px}
+}
